@@ -1,0 +1,513 @@
+
+body{ margin: 0;
+  padding: 0;
+  /* width: 100%; */
+  height: 100vh;
+  /* background-color: #ff3a3a; */
+  background: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.1)),
+  url(../public/logo.svg) no-repeat center  fixed;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.BuscadorL{
+  width: 100%;
+  position: absolute;
+  margin-top: 15rem ;
+ text-align: center;
+ font-size: 2em;
+ height: 7rem;
+/* background-color: burlywood; */
+}
+
+.BuscadorL input{ 
+  border-radius: 10px;
+  color: white;
+  background-color: #c28813;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 70%);
+
+}
+
+.BuscadorL button{
+  height: 1.8rem;
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: #18b60d;
+  color: #eca008;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 90%);
+}
+.BuscadorL button:hover{
+  transform: scale(0.6);
+  -webkit-transform: scale(1.1);
+
+}
+.Uso{
+  margin: auto;
+  width: 15rem;
+  color: #18b60d;
+  font-size: 0.5em;
+  border-radius: 5px;
+  background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.50));
+  /* background-color: #18b60d; */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 90%);
+  
+  
+}
+
+
+
+.Container{
+ width: 17rem;
+  height: 21.1rem;
+  border-radius: 5%;
+  cursor: pointer;
+  transition-duration: .5s;
+    /* background-color: #1a1a24; */
+    background: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.1)),
+    url(../public/background\ page.png) no-repeat center center fixed;
+    background-size: cover;
+   
+
+  /* height: 40rem; */
+/* background-color: aqua; */
+}
+.Container:hover{
+  transform: scale(0.5);
+  -webkit-transform: scale(1.1);
+}
+.Container h4{
+  border-radius: 15px;
+width: 90%;
+margin: auto;
+ margin-top: 0.2rem;
+ margin-bottom: 0.7rem;
+   /* height: 40rem; */
+ background-color: rgb(220, 206, 8);
+ box-shadow: 0 3px 10px rgb(0 0 0 / 90%);
+ }
+ .Container p{
+
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+    /* height: 40rem; */
+  /* background-color: rgb(102, 203, 34); */
+  box-shadow: 0 3px 10px rgb(0 0 0 / 90%);
+  }
+ 
+
+.ContainerP{
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.1)),
+  url(../public/Rick\ y\ Morty\ -\ Desktop\ version-1.png ) no-repeat center   ;
+  background-size: cover;
+  /* justify-content: space-between; */
+  
+  /* background-color: #7af182; */
+}
+.ContaninerP1{
+  border-bottom-left-radius: 15% 40%;
+  border-bottom-right-radius: 15% 40%;
+  width: 50%;
+  padding: 20px;
+  border-bottom: solid #18b60d;
+  border-right: #18b60d;
+ background-color: rgb(9, 24, 98);
+  text-align: center;
+  background: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.1)),
+  url(../public/background\ header.png) no-repeat center center fixed;
+  background-size: cover;
+ 
+  box-shadow: 0 3px 10px rgb(0 0 0 / 60%);
+}
+
+
+
+.NameL{
+  width: 30rem;
+  height: 3rem;
+
+
+  margin: auto;
+  margin-bottom: 0.5rem;
+ border-radius: 10px;
+  background-color: blueviolet;
+  background: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.1)),
+  url(../public/portal.webp) no-repeat fixed;
+  background-size: cover;
+  color: white;
+  font-size: 1.5em;
+}
+
+
+
+.TypeL,
+.DimensionL,
+.NoRL {
+  font-style: oblique;
+  color: white;
+  width: 20rem;
+  margin: auto;
+  /* background-color: #eca008; */
+  font-size: 16px;
+  margin-bottom: 1rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 100%);
+  border-bottom:solid #18b60d 1px;
+}
+
+.inputL {
+  
+  height: 0.5rem;
+  border: solid #18b60d;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: -10px;
+  border-style:groove;
+  background-color:rgb(98, 98, 98, 0.1);
+
+}
+
+.buttonL {
+  
+  border-radius:10px;
+  padding: 8px 10px;
+  
+  background-color:#eca008;
+  color:white;
+  border: solid 2px #18b60d;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.buttonL:hover{
+  transform: scale(0.5);
+  -webkit-transform: scale(1.1);
+}
+
+.H3RL { 
+  /* width: 100%; */
+  height: 67rem;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 350px 350px;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 0.2rem 7rem;
+
+}
+.Container img{
+  border-radius: 50%;
+  border: solid #eca008 2px;
+  height: 9rem;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+.Container img:hover{
+  transform: scale(0.6);
+  -webkit-transform: scale(1.9);
+}
+.ResidenL {
+  font-size: 20px;
+}
+
+.ResidentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.Bts{
+  
+  margin-top: 2rem;
+  /* background-color: rgb(214, 214, 214); */
+
+}
+
+.buttons button {
+  width: 9rem;
+  padding: 10px 20px;
+  margin-right: 15px;
+
+  background-color: #18b60d;
+  color: rgb(177, 177, 14);
+  border-radius: 20px;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+.buttons button:hover{
+  transform: scale(0.5);
+  -webkit-transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+
+
+
+  body{ margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    height: 100vh;
+    /* background-color: #ff3a3a; */
+    background: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.1)),
+    url(../public/background\ header.png) no-repeat center  fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  .BuscadorL{
+    width: 100%;
+    position: absolute;
+    margin-top: 15rem ;
+   text-align: center;
+   font-size: 2em;
+   height: 7rem;
+  /* background-color: burlywood; */
+  }
+  
+  .BuscadorL input{ 
+    border-radius: 10px;
+    color: white;
+    background-color: #c28813;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 70%);
+  
+  }
+  
+  .BuscadorL button{
+    height: 1.8rem;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: #18b60d;
+    color: #eca008;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 90%);
+  }
+  .BuscadorL button:hover{
+    transform: scale(0.6);
+    -webkit-transform: scale(1.1);
+  
+  }
+  .Uso{
+    margin: auto;
+    width: 15rem;
+    color: #18b60d;
+    font-size: 0.5em;
+    border-radius: 5px;
+    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.50));
+    /* background-color: #18b60d; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 90%);
+    
+    
+  }
+  
+  
+  
+  .Container{
+   width: 12rem;
+    height: 15rem;
+    border-radius: 5%;
+    cursor: pointer;
+    transition-duration: .5s;
+      /* background-color: #1a1a24; */
+      background: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.1)),
+      url(../public/background\ page.png) no-repeat center center fixed;
+      background-size: cover;
+     
+  
+    /* height: 40rem; */
+  /* background-color: aqua; */
+  }
+  .Container:hover{
+    transform: scale(0.5);
+    -webkit-transform: scale(1.1);
+  }
+  .Container h4{
+    /* height: 1.8rem; */
+    border-radius: 15px;
+  width: 90%;
+  margin: auto;
+   margin-top: 0.2rem;
+   margin-bottom: 0.7rem;
+     /* height: 40rem; */
+   background-color: rgb(220, 206, 8);
+   box-shadow: 0 3px 10px rgb(0 0 0 / 90%);
+   }
+   .Container p{
+  
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+      /* height: 40rem; */
+    /* background-color: rgb(102, 203, 34); */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 90%);
+    }
+   
+  
+  .ContainerP{
+    width: 100%;
+   
+    font-size: 0.6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(5, 7, 12, 0.40), rgba(5, 7, 12, 0.1)),
+    url(../public/Rick\ y\ Morty\ -\ Desktop\ version-1.png ) no-repeat center   ;
+    background-size: cover;
+    /* justify-content: space-between; */
+    
+    /* background-color: #7af182; */
+  }
+  .ContaninerP1{
+    border-bottom-left-radius: 15% 40%;
+    border-bottom-right-radius: 15% 40%;
+    width: 70%;
+    padding: 20px;
+    border-bottom: solid #18b60d;
+    border-right: #18b60d;
+   background-color: rgb(9, 24, 98);
+    text-align: center;
+    background: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.1)),
+    url(../public/background\ header.png) no-repeat center center fixed;
+    background-size: cover;
+   
+    box-shadow: 0 3px 10px rgb(0 0 0 / 60%);
+  }
+  
+  
+  
+  .NameL{
+    width: 10rem;
+    height: 3rem;
+    margin: auto;
+    margin-bottom: 0.9rem;
+   border-radius: 10px;
+    background-color: blueviolet;
+    background: linear-gradient(rgba(5, 7, 12, 0.1), rgba(5, 7, 12, 0.1)),
+    url(../public/portal.webp) no-repeat fixed;
+    background-size: cover;
+    color: white;
+    /* font-size: 1em; */
+
+  }
+  
+  
+  
+  .TypeL,
+  .DimensionL,
+  .NoRL {
+    font-style: oblique;
+    color: white;
+    width: 9rem;
+    margin: auto;
+    /* background-color: #eca008; */
+    font-size: 16px;
+    margin-bottom: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 100%);
+    border-bottom:solid #18b60d 1px;
+  }
+  
+  .inputL {
+    width: 8rem;
+    height: 0.5rem;
+    border: solid #18b60d;
+    border-radius: 10px;
+    padding: 7px;
+    margin-right: 5px;
+    border-style:groove;
+    background-color:rgb(98, 98, 98, 0.1);
+  
+  }
+  
+  .buttonL {
+    
+    border-radius:10px;
+    padding: 5px 10px;
+    margin-top: 1rem;
+    
+    background-color:#eca008;
+    color:white;
+    border: solid 2px #18b60d;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .buttonL:hover{
+    transform: scale(0.5);
+    -webkit-transform: scale(1.1);
+  }
+  
+  .H3RL { 
+    /* width: 100%; */
+    height: 67rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+  
+  }
+  .Container img{
+    border-radius: 50%;
+    border: solid #eca008 2px;
+    height: 6rem;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: .5s;
+  }
+  .Container img:hover{
+    transform: scale(0.6);
+    -webkit-transform: scale(1.9);
+  }
+  .ResidenL {
+    font-size: 20px;
+  }
+  
+  .ResidentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .buttons {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .Bts{
+    display: flex;
+    margin-top: 2rem;
+  
+    /* background-color: rgb(214, 214, 214); */
+  
+  }
+  
+  .buttons button {
+    width: 8rem;
+    padding: 7px 15px;
+    margin-right: 15px;
+    font-size: 1.1em;
+  
+    background-color: #18b60d;
+    color: rgb(177, 177, 14);
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: .5s;
+  }
+  .buttons button:hover{
+    transform: scale(0.5);
+    -webkit-transform: scale(1.1);
+  }
+
+}
